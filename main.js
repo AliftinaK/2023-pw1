@@ -1,49 +1,4 @@
-  <!-- <button id="minus-btn">-</button>
-<input id="number-input" type="number" min="0" max="9" value="0" readonly>
-<button id="plus-btn">+</button>
 
-<table id="chessboard"></table> -->
-<!-- <div id="field">		
-	<div id="ball"></div>
-</div> -->
- <!-- <input type="text" id="numberInput"> -->
- <!-- <table id="users-table">
-  <thead>
-    <tr>
-      <th>Имя</th>
-      <th>Пользователь</th>
-      <th>Админ</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>John</td>
-      <td>X</td>
-      <td></td>
-      <td><button onclick="deleteRow(this)">X</button></td>
-    </tr>
-    <tr>
-      <td>Jane</td>
-      <td></td>
-      <td>X</td>
-      <td><button onclick="deleteRow(this)">X</button></td>
-    </tr>
-  </tbody>
-</table>
-
-<form id="add-user-form">
-  <input type="text" name="name" placeholder="Имя">
-  <input type="checkbox" name="user" id="user-checkbox">
-  <label for="user-checkbox">Пользователь</label>
-  <input type="checkbox" name="admin" id="admin-checkbox">
-  <label for="admin-checkbox">Админ</label>
-  <button type="submit">Добавить</button>
-</form> -->
-
-
-</body>
-<script>
     //Task #1 - conditional operator
 // let x = parseInt(prompt("Ввидите число от 0 до 9"))
 //     switch(x){
