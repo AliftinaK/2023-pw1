@@ -34,7 +34,7 @@
 //         break;
 // }
 
-//------------------------Task #2 - loops-------------------------------------
+//Task #2 - loops
 // function summa (a,b){
 //     let sum = 0;
 //     for (let i= a; i <= b; i++){
@@ -47,14 +47,14 @@
 // console.log(summa(1,60));
 // console.log(summa(8,23));
 
-//-------------------Task #3 - conditional operator-------------------------------------
+//Task #3 - conditional operator
 // let a = parseInt(prompt('a = '))
 // let b = parseInt(prompt('b = '))
 // let c = parseInt(prompt('c = '))
 // console.log(Math.max(a,Math.max(b,c)));
 // console.log(Math.min(a,Math.min(b,c)));
 
-//-----------------------Task #4 - functions----------------------------
+//Task #4 - functions
 // function ucFirst(str) {
 
 // const upper = str.charAt(0).toUpperCase() + str.slice(1);
@@ -64,7 +64,7 @@
 // const result = ucFirst(str);
 // console.log(result);
 
-//---------------------Task #5 - String-------------------------------
+//Task #5 - String
 
 // function extractCurrencyValue(str) {
 //   return +str.slice(1);
@@ -73,7 +73,7 @@
 // let value = extractCurrencyValue(str);
 // console.log(value);
 
-//--------------------Task #6 - conditional operator----------------------------------
+//Task #6 - conditional operator
 
 // let value = prompt('Vvedite cislo', 0);
 
@@ -85,7 +85,7 @@
 //   alert( "Error" );
 // }
 
-//--------------------------Task #7 - conditional operator----------------------------------------------
+//Task #7 - conditional operator
 
 //let age = parseInt(prompt("Vvedite vozrast  "));
 
@@ -105,7 +105,7 @@
 //     alert("error") 
 // }
 
-//------------------------Task #8 - conditional operator-----------------------------------
+//Task #8 - conditional operator
 
 
 
@@ -129,8 +129,7 @@
 //   alert( "Cto vi" );
 // }
 
-//---------------------------Task #9 - user interaction--------------------------------------------
-
+//Task #9 - user interaction
 // let name = prompt("Vashe imea?", "");
 // alert(`Привет,${name}!`);
 // let isFamiliar = confirm("Vi znacomi с JavaScript?");
@@ -140,7 +139,7 @@
 // alert("Mojno naceati izucenie seiceas");
 //     }
 
-//---------------------------Task #10 - conditional operator and loops-----------------------------------
+//Task #10 - conditional operator and loops
 
 // function delitel(number){
 //     let divisors = [];
@@ -155,8 +154,8 @@
 
 // delitel(number = prompt(""));
 
-//---------------------------3.4.2 Practical tasks for Arrays------------------------------------
-//------------------------Task #1 - array display-------------------------------------
+//3.4.2 Practical tasks for Arrays
+//Task #1 - array display
 
 //const numbers = [1,2,3,4,5];
 // for (let i = 0; i < numbers.length; i++) {
@@ -186,7 +185,7 @@
 //numbers.forEach(number => console.log(number));
 //numbers.map(number => console.log(number));
 
-//----------------------Task #2 - array processing----------------------------
+//Task #2 - array processing
 //let array = [1, 5, 0, -5, 30, 100, -500, 0, 100, 55];
 // function sort(array){
 //     array.sort ((a,b) => b - a);
@@ -232,7 +231,7 @@
 // }
 // ThanAverage(array)
 
-//---------------------------Task #4 - array processing------------------------------------
+//Task #4 - array processing
 
 // function sumInputNumbers() {
 //   let inputArr = [];
@@ -257,7 +256,7 @@
 // }
 // console.log(sumInputNumbers());
 
-//------------------------------Task #5 - arrow methods and array functions--------------------------------
+//Task #5 - arrow methods and array functions
 
 // function convert(fn, array) {
 //   let result = [];
@@ -275,7 +274,7 @@
 // console.log(convert(square, [1, 2, 3, 4])); 
 // console.log(convert(square, []));
 
-//------------------------Task #7 - array functions-----------------------------------
+//Task #7 - array functions
 //  start =parseInt(prompt("")); 
 //  end =parseInt(prompt ("")); 
 // function extract(start, end) {
@@ -284,8 +283,8 @@
 // }
 // console.log (extract(start, end))
 
-//-------------------------3.5.2 Practical tasks for Objects----
-//--------------------------Task #1 - object creation-----------
+//3.5.2 Practical tasks for Objects
+//Task #1 - object creation
 
 // let user = {};
 // user={name : "John"};
@@ -293,7 +292,7 @@
 // user.name = "Pete"
 // delete user.name
 
-//-------------------------------Task #2 - working with properties-----
+//Task #2 - working with properties
 // function multiplyNumeric(obj) {
 //   for (let key in obj) {
 //     if (typeof obj[key] === "number") {
@@ -312,7 +311,7 @@
 
 // console.log(menu);
 
-//--------------------------------Task #5 - object processing----
+//Task #5 - object processing
 // let person = {
 // 	name: `Person`,
 // 	age: 123,
@@ -326,7 +325,7 @@
 // person.contacts.phone=`+37312345678`;
 // delete person.address
 
-//-----------------------Task #8 - working with keys--------------------------------------
+//Task #8 - working with keys
 // const weekDays = {
 // 	"Mo": "Ponedelinic",
 // 	"Tu": "Vtornic",
@@ -360,28 +359,28 @@
 // const translatedWeekDays = translate(weekDays);
 // console.log(translatedWeekDays);
 
-//--------------------------3.7.2 Practical tasks for JSON------
-//--------------------------Task #1 - converting Array to JSON---
+//3.7.2 Practical tasks for JSON
+//Task #1 - converting Array to JSON
 // const names= ["james", "jake"];
 // const xo = JSON.stringify(names);
 // console.log (xo)
 
-//-------------------------Task #2 - converting Object to JSON-------------------------------------
+//Task #2 - converting Object to JSON
  //const power={voltage: 250,current: 12};
  //const CP = JSON.stringify (power);
  //console.log (CP)
-//----------------------Task #3 - converting JSON to Array-------------------------------
+//Task #3 - converting JSON to Array
 
 // const names= `["james", "jake"]`;
 // const xo = JSON.parse(names);
 // console.log (xo)
 
-//------------------------Task #4 - converting JSON to Object-------------------------------------
+//Task #4 - converting JSON to Object
 // const IK=`{"name": "Ion Creanga", "age": "123"}`;
 // const UK = JSON.parse(IK);
 // console.log(UK)
 
-//----------------------Task #6 - parsing JSON---------------------------------------
+//Task #6 - parsing JSON
 
 // const employees = [
 //   {
@@ -440,21 +439,21 @@
 
 // calculateSalary();
 
-//-------------------------4.1.2.	Practical tasks for DOM-----------------------------------
-//---------------------Task #1 - document loading event----------------------------------------
+//4.1.2.	Practical tasks for DOM
+//Task #1 - document loading event
 // document.addEventListener('DOMContentLoaded', function() {
 //   document.body.style.backgroundColor = 'red';
 // });
 
 
-//------------------------ask #2 - document loading event----------------------------------
+//Task #2 - document loading event
 // document.addEventListener('DOMContentLoaded', function() {
 //   setTimeout(function() {
 //     document.body.style.backgroundColor = 'green';
 //   }, 3000);
 // });
 
-//---------------------------Task #5 - changing DOM -------------------------------------
+//Task #5 - changing DOM
 // Poluceaem element straniti 
 // const minusBtn = document.getElementById('minus-btn');
 // const numberInput = document.getElementById('number-input');
@@ -485,7 +484,7 @@
 //   }
 //   minusBtn.disabled = false; // Vsegda delaem cnipcu  - activnoi
 // });
-//-------------------------------Task #6 - adding elements to DOM-------------------------------------
+//Task #6 - adding elements to DOM
 
 
 // const boardSize = 8; // Razmer doschi
@@ -502,7 +501,7 @@
 //         }
 //         table.appendChild(row); // dobavleaem scutrocu v tablitu
 //     }
-//------------------------Task #10 - DOM elements properties-------------------------------------
+//Task #10 - DOM elements properties
 
 
 
@@ -530,7 +529,7 @@
 // ball.style.left = fieldRect.width - ballRect.width + "px";
 // ball.style.top = fieldRect.height - ballRect.height + "px";
 
-//-----------------------Task #15 - keyboard events------------------------------------------------
+//Task #15 - keyboard events
 // const numberInput = document.getElementById('numberInput');
 
 // numberInput.addEventListener('blur', () => {
@@ -540,7 +539,7 @@
 //   }
 // });
 
-//---------------------------Task #16 - keyboard events----------------------------------------------
+//Task #16 - keyboard events
 // const numberInput = document.getElementById("numberInput");
 
 // numberInput.addEventListener("input", () => {
@@ -552,7 +551,7 @@
 //   }
 // });
 
-//------------------Task #20 - working with DOM-------------------------------
+//Task #20 - working with DOM
 // function deleteRow(button) {
 //   var row = button.parentNode.parentNode;
 //   row.parentNode.removeChild(row);
